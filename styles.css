@@ -1,0 +1,67 @@
+body{
+font-family: Arial;
+background:#f4f4f4;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.contenedor{
+background:white;
+padding:30px;
+border-radius:10px;
+width:350px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.campo-grupo{
+margin-bottom:15px;
+display:flex;
+flex-direction:column;
+}
+
+input{
+padding:8px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.valido{
+border:2px solid green;
+}
+
+.invalido{
+border:2px solid red;
+}
+
+.msg-error{
+font-size:12px;
+color:red;
+visibility:hidden;
+}
+
+.msg-error.visible{
+visibility:visible;
+}
+
+button{
+padding:10px;
+background:#1565C0;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+#mensaje-exito{
+margin-top:15px;
+color:green;
+}
+
+.oculto{
+display:none;
+}
+
+.visible{
+display:block;
+}
